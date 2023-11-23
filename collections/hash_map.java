@@ -53,5 +53,13 @@ public class hash_map {
 
         // Printing values of hash map
         System.out.println(map.values()); // returns a "Collection" of values
+
+        // Clearing hash map
+        map.clear();
+        if (map.isEmpty()) {
+            System.out.println("Hash map cleared");
+        }
+
+        scan.close();
     }
 }
