@@ -29,6 +29,8 @@ public class bulk_ops {
         // addAll method adds all elements of a collection to another collection
         list.addAll(map.values());
         System.out.println(list);
+        list.addAll(1, map.values());
+        System.out.println(list);
 
         // retainAll method retains all elements of a collection in another collection
         list2.remove(3);
