@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class files {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         try {
             File myFile = new File("file_handling/ques.txt");
             FileWriter fw = new FileWriter("file_handling/answers.txt");
