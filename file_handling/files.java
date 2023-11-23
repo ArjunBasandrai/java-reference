@@ -23,7 +23,7 @@ public class files {
             fw.close();
             user_input.close();
 
-            System.err.println();
+            System.out.println();
 
             File myFile2 = new File("file_handling/answers.txt");
             File myFile3 = new File("file_handling/ques.txt");
