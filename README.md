@@ -1,4 +1,4 @@
-<h1 align="center"> Verilog Reference </h1>
+<h1 align="center"> Java Reference </h1>
 <br>
 
 > Java programs for VIT Computer Programming: Java course (2023)
